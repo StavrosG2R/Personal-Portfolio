@@ -493,25 +493,13 @@ a > .project-btn.live{
     grid-gap: 50px;
 }
 
-.contact-form input{
+.contact-form input, .contact-form textarea{
     width: 100%;
     height: 40px;
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid #fff;
     margin-bottom: 30px;
     border-radius: 5px;
-    color: #fff;
-    padding: 5px 10px;
-}
-
-.contact-form textarea{
-    width: 100%;
-    height: 40px;
-    background: rgba(255, 255, 255, 0.2);
-    border: 1px solid #fff;
-    margin-bottom: 30px;
-    border-radius: 5px;
-    text-transform: capitalize;
     color: #fff;
     padding: 5px 10px;
 }
