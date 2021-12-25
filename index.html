@@ -225,11 +225,20 @@
 
     <!-- contact section -->
     <section class="contact-section">
-        <form action="https://getform.io/f/3d1d85ab-5841-462d-a492-e94ae404f542" method="POST" class="contact-form">
-            <input type="text" name="name" id="name" autocomplete="off" placeholder="name" required>
-            <input type="text" name="email" id="email" autocomplete="off" placeholder="email" required>
-            <textarea name="msg" id="msg" placeholder="message" autocomplete="off" required></textarea>
-            <button type="submit" class="form-submit-btn">contact</button>
+        <form action="https://getform.io/f/3d1d85ab-5841-462d-a492-e94ae404f542" method="POST" name="contact-form" id="contact-form" class="contact-form">
+            <div class="input-control">
+                <input type="text" name="name" id="name" autocomplete="off" placeholder="Name">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <input type="text" name="email" id="email" autocomplete="off" placeholder="Email">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <textarea name="msg" id="msg" placeholder="Message" autocomplete="off"></textarea>
+                <div class="error"></div>
+            </div>
+            <button id="submit-btn" type="submit" class="form-submit-btn">contact</button>
         </form>
 
         <!-- map -->
