@@ -519,7 +519,7 @@ a > .project-btn.live{
 }
 
 .hidden {
-    visibility: "hidden";
+    display: none;
     height: 0;
 }
 
