@@ -518,6 +518,11 @@ a > .project-btn.live{
     height: 13px;
 }
 
+.hidden {
+    visibility: hidden;
+    height: 0;
+}
+
 ::placeholder{
     color: #fff;
 }
