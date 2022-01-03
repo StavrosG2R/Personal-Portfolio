@@ -104,6 +104,10 @@ footer{
     grid-gap: 100px;
     }
 
+    .project-heading{
+        font-size: 70px;
+    }
+    
     .hero-heading{
         color: #fff;
         font-size: 65px;
