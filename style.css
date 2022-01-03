@@ -554,7 +554,7 @@ a > .project-btn.live{
     border-radius: 5px;
 }
 
-.container, .list{
+.contact-details, .contact-detailslist, .list{
     text-align: center;
     list-style: none;
     color: #fff;
