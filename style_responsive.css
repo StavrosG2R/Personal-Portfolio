@@ -67,7 +67,7 @@ footer{
 }
 
 /* Mobiles */
-@media (max-width: 500px){
+@media (max-width: 600px){
     .navbar{
         width: 100%;
         position: fixed;
@@ -78,7 +78,6 @@ footer{
         align-items: center;
         z-index: 9;
         background: #1a1a1a;
-        opacity: 0.5;
     }
     
     .link-group{
@@ -162,6 +161,7 @@ footer{
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 50px;
+        top: 50px;
     }
 
     footer{
