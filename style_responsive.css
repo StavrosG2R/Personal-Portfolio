@@ -153,15 +153,14 @@ footer{
 
     .contact-section{
         position: absolute;
-        top: 0;
+        top: 50px;
         opacity: 0;
         transition: 1s;
         padding: 100px 150px;
         height: 100vh;
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap: 50px;
-        top: 50px;
+        grid-gap: 30px;
     }
 
     footer{
@@ -169,7 +168,7 @@ footer{
         text-align: center;
         font-size: small;
         position: relative;
-        bottom: 0;
+        bottom: 0px;
         width: 100%;
     }
 }
