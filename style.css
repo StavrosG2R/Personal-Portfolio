@@ -47,6 +47,10 @@ body{
     opacity: 1;
 }
 
+.translate{
+    padding-top: 10px;
+}
+
 /* Home Section*/
 .home-section.active, 
 .project-section.active,
