@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>G2R's Personal Portfolio</title>
-    
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- jQuery -->
@@ -15,18 +14,17 @@
     <!-- css external files -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style_responsive.css">
-
 </head>
 <body>
 
     <!-- NavBar -->
-    <nav class="navbar">
+    <nav class="navbar" id="navbar">
         <ul class="link-group">
             <li class="link active"><a href="#">home</a></li>
             <li class="link"><a href="#">projects</a></li>
             <li class="link"><a href="#">about</a></li>
             <li class="link"><a href="#">contact</a></li>
-            <li class="translate"><div id="google_translate_element"></div></li>
+            <li class="link"><a href="index_gr.html"><img src="images/elliniki-simaia.jpg" alt=""></a></li>
         </ul>
     </nav>
 
@@ -99,7 +97,7 @@
         <div class="about">
             <div class="about-img-container">
                 <img src="images/profile.jpg" class="about-img" alt="">
-                <a href="images/cv_Soudris-Stavros.pdf" target="_blank"><button class="download-cv-btn">download cv</button></a>
+                <a href="images/cv_Sountris-Stavros.pdf" target="_blank"><button class="download-cv-btn">download cv</button></a>
             </div>
             <p class="about-info">
                 Hello my name is Stavros, I am a .NET junior software developer.
@@ -122,49 +120,31 @@
                     <img src="images/HTML.jpg" class="skill-img" alt="">
                     <div class="skill-level">60%</div>
                     <h1 class="skill-name">HTML</h1>
-                    <!-- <p class="skill-info">
-                        Lorem ipsum dolor sit amet.
-                    </p> -->
                 </div>
                 <div class="skill-card">
                     <img src="images/CSS.jpg" class="skill-img" alt="">
                     <div class="skill-level">60%</div>
                     <h1 class="skill-name">CSS</h1>
-                    <!-- <p class="skill-info">
-                        Lorem ipsum dolor sit amet.
-                    </p> -->
                 </div>
                 <div class="skill-card">
                     <img src="images/JS.jpg" class="skill-img" alt="">
                     <div class="skill-level">40%</div>
                     <h1 class="skill-name">JS</h1>
-                    <!-- <p class="skill-info">
-                        Lorem ipsum dolor sit amet.
-                    </p> -->
                 </div>
                 <div class="skill-card">
                     <img src="images/React.png" class="skill-img" alt="">
                     <div class="skill-level">25%</div>
                     <h1 class="skill-name">React</h1>
-                    <!-- <p class="skill-info">
-                        Lorem ipsum dolor sit amet.
-                    </p> -->
                 </div>
                 <div class="skill-card">
                     <img src="images/Angular.png" class="skill-img" alt="">
                     <div class="skill-level">20%</div>
                     <h1 class="skill-name">Angular</h1>
-                    <!-- <p class="skill-info">
-                        Lorem ipsum dolor sit amet.
-                    </p> -->
                 </div>
                 <div class="skill-card">
                     <img src="images/CSharp.jpg" class="skill-img" alt="">
                     <div class="skill-level">65%</div>
                     <h1 class="skill-name">C#</h1>
-                    <!-- <p class="skill-info">
-                        Lorem ipsum dolor sit amet.
-                    </p> -->
                 </div>
             </div>
         </div>
@@ -211,23 +191,11 @@
                     </p>
                 </div>
             </div>
-            <!-- <div class="card">
-                <div class="card-body">
-                    <h1 class="card-title">2020-2022</h1>
-                    <p class="card-detail">Lorem ipsum dolor sit, amet
-                        consectetur adipisicing elit. Doloribus quia ducimus
-                        modi consectetur culpa harum eius quisquam minima.
-                        Harum omnis sequi incidunt eveniet, molestias error
-                        hic deleniti natus? Reprehenderit, placeat!
-                    </p>
-                </div>
-            </div> -->
         </div>
     </section>
-
     <!-- contact section -->
     <section class="contact-section">
-        <form data-netlify="true" method="POST" name="contact-form" id="contact-form" class="contact-form">
+        <form data-netlify-recaptcha="true" data-netlify="true" method="POST" name="contact-form" id="contact-form" class="contact-form">
             <input type="hidden" name="form-name" value="contact-form">
             <div class="input-control">
                 <input type="text" name="name" id="name" autocomplete="off" placeholder="Name">
@@ -241,6 +209,7 @@
                 <textarea name="msg" id="msg" placeholder="Message" autocomplete="off"></textarea>
                 <div class="error"></div>
             </div>
+            <div data-netlify-recaptcha="true"></div>
             <button id="submit-btn" type="submit" class="form-submit-btn">contact</button>
         </form>
 
@@ -252,7 +221,7 @@
             </iframe>
         </div>
 
-       <div class="contact-details">
+        <div class="contact-details">
             <div>
                 <div>
                     <h3>Contact Details</h3>
@@ -262,7 +231,6 @@
                         <li><i class="fa fa-phone"></i>: +30 6982797403</li>
                         <li><a class="contact-detailslist" href="https://www.linkedin.com/in/stavros-sountris-271292219/"><i class="fa fa-linkedin"></i>: Stavros Sountris</a></li>
                         <li><a class="contact-detailslist" href="https://github.com/StavrosG2R"><i class="fa fa-github"></i>: StavrosG2R</a></li>
-                        <!-- <li><i class="fa fa-map-marker"></i> Πανεπιστημίου 39,1ος οροφος, <br> Τ.Κ 10564, Αθήνα</li> -->
                     </ul>
                 </div>
             </div>
@@ -272,8 +240,7 @@
     <footer>
         <p>Copyright &copy; 2021-2022 G2R Programing &reg;</p>
     </footer>
-    
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
     <script src="script.js"></script>
 </body>
 </html>
