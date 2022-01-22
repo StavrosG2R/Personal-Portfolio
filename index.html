@@ -41,7 +41,7 @@
             <div class="project-card">
                 <img src="images/Project-1.jpg" class="project-img" alt="">
                 <div class="project-content">
-                    <h1 class="project-title">project 01</h1>
+                    <h1 class="project-title">to do list</h1>
                     <p class="project-info">
                         A simple to do list application using React
                     </p>
@@ -54,7 +54,7 @@
             <div class="project-card">
                 <img src="images/Project-2.jpg" class="project-img" alt="">
                 <div class="project-content">
-                    <h1 class="project-title">project 02</h1>
+                    <h1 class="project-title">zoom effect</h1>
                     <p class="project-info">
                         Image zoom effect script using HTML, Css, JS
                     </p>
@@ -67,7 +67,7 @@
             <div class="project-card">
                 <img src="images/Project-3.jpg" class="project-img" alt="">
                 <div class="project-content">
-                    <h1 class="project-title">project 03</h1>
+                    <h1 class="project-title">Password generator</h1>
                     <p class="project-info">
                         Password generator using basic HTML, CSS and JS
                     <div class="project-btn-grp">
@@ -77,15 +77,18 @@
                 </div>
             </div>
             <div class="project-card">
-                <img src="images/Project-4.jpg" class="project-img" alt="">
+                <img src="images/dr.builder.jpg" class="project-img" alt="">
                 <div class="project-content">
-                    <h1 class="project-title">project 04</h1>
+                    <h1 class="project-title">Dr.Builder</h1>
                     <p class="project-info">
-                        Landing page using simple HTML, CSS
+                        This is the group project developed for Peoplecert's Coding Bootcamp
+                        group assignemnt. The app intends to replicate a site where the user
+                        can browse premade PC builds or create their own and post it on the
+                        website.
                     </p>
                     <div class="project-btn-grp">
-                        <a href="https://github.com/StavrosG2R/Landing-Page" target="_blank" class="project-btn github"><button class="project-btn github">github repo</button></a>
-                        <a href="https://epic-bell-0e5bca.netlify.app/" target="_blank" class="project-btn live"><button class="project-btn live">see live</button></a>
+                        <a href="https://github.com/StavrosG2R/GroupProject" target="_blank" class="project-btn github"><button class="project-btn github">github repo</button></a>
+                        <a href="#" target="_blank" class="project-btn live"><button class="project-btn live">see live</button></a>
                     </div>
                 </div>
             </div>
@@ -120,31 +123,49 @@
                     <img src="images/HTML.jpg" class="skill-img" alt="">
                     <div class="skill-level">60%</div>
                     <h1 class="skill-name">HTML</h1>
+                    <!-- <p class="skill-info">
+                        Lorem ipsum dolor sit amet.
+                    </p> -->
                 </div>
                 <div class="skill-card">
                     <img src="images/CSS.jpg" class="skill-img" alt="">
                     <div class="skill-level">60%</div>
                     <h1 class="skill-name">CSS</h1>
+                    <!-- <p class="skill-info">
+                        Lorem ipsum dolor sit amet.
+                    </p> -->
                 </div>
                 <div class="skill-card">
                     <img src="images/JS.jpg" class="skill-img" alt="">
                     <div class="skill-level">40%</div>
                     <h1 class="skill-name">JS</h1>
+                    <!-- <p class="skill-info">
+                        Lorem ipsum dolor sit amet.
+                    </p> -->
                 </div>
                 <div class="skill-card">
                     <img src="images/React.png" class="skill-img" alt="">
                     <div class="skill-level">25%</div>
                     <h1 class="skill-name">React</h1>
+                    <!-- <p class="skill-info">
+                        Lorem ipsum dolor sit amet.
+                    </p> -->
                 </div>
                 <div class="skill-card">
                     <img src="images/Angular.png" class="skill-img" alt="">
                     <div class="skill-level">20%</div>
                     <h1 class="skill-name">Angular</h1>
+                    <!-- <p class="skill-info">
+                        Lorem ipsum dolor sit amet.
+                    </p> -->
                 </div>
                 <div class="skill-card">
                     <img src="images/CSharp.jpg" class="skill-img" alt="">
                     <div class="skill-level">65%</div>
                     <h1 class="skill-name">C#</h1>
+                    <!-- <p class="skill-info">
+                        Lorem ipsum dolor sit amet.
+                    </p> -->
                 </div>
             </div>
         </div>
@@ -191,11 +212,24 @@
                     </p>
                 </div>
             </div>
+            <!-- <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">2020-2022</h1>
+                    <p class="card-detail">Lorem ipsum dolor sit, amet
+                        consectetur adipisicing elit. Doloribus quia ducimus
+                        modi consectetur culpa harum eius quisquam minima.
+                        Harum omnis sequi incidunt eveniet, molestias error
+                        hic deleniti natus? Reprehenderit, placeat!
+                    </p>
+                </div>
+            </div> -->
         </div>
     </section>
+    <!-- action="https://getform.io/f/3d1d85ab-5841-462d-a492-e94ae404f542" -->
     <!-- contact section -->
     <section class="contact-section">
-        <form data-netlify="true" method="POST" name="contact-form" id="contact-form" class="contact-form">
+        <form data-netlify-recaptcha="true" data-netlify="true" method="POST" name="contact-form" id="contact-form" class="contact-form">
+            <input type="hidden" name="form-name" value="contact-form">
             <div class="input-control">
                 <input type="text" name="name" id="name" autocomplete="off" placeholder="Name">
                 <div class="error"></div>
@@ -208,6 +242,7 @@
                 <textarea name="msg" id="msg" placeholder="Message" autocomplete="off"></textarea>
                 <div class="error"></div>
             </div>
+            <div data-netlify-recaptcha="true"></div>
             <button id="submit-btn" type="submit" class="form-submit-btn">contact</button>
         </form>
 
@@ -229,6 +264,7 @@
                         <li><i class="fa fa-phone"></i>: +30 6982797403</li>
                         <li><a class="contact-detailslist" href="https://www.linkedin.com/in/stavros-sountris-271292219/"><i class="fa fa-linkedin"></i>: Stavros Sountris</a></li>
                         <li><a class="contact-detailslist" href="https://github.com/StavrosG2R"><i class="fa fa-github"></i>: StavrosG2R</a></li>
+                        <!-- <li><i class="fa fa-map-marker"></i> Πανεπιστημίου 39,1ος οροφος, <br> Τ.Κ 10564, Αθήνα</li> -->
                     </ul>
                 </div>
             </div>
