@@ -41,7 +41,7 @@
             <div class="project-card">
                 <img src="images/Project-1.jpg" class="project-img" alt="">
                 <div class="project-content">
-                    <h1 class="project-title">project 01</h1>
+                    <h1 class="project-title">to do list</h1>
                     <p class="project-info">
                         Εφαρμογή λίστας εκκρεμοτήτων
                     </p>
@@ -54,7 +54,7 @@
             <div class="project-card">
                 <img src="images/Project-2.jpg" class="project-img" alt="">
                 <div class="project-content">
-                    <h1 class="project-title">project 02</h1>
+                    <h1 class="project-title">zoom effect</h1>
                     <p class="project-info">
                         Εφαρμογή zoom effect με τη χρήση HTML, Css, JS
                     </p>
@@ -67,7 +67,7 @@
             <div class="project-card">
                 <img src="images/Project-3.jpg" class="project-img" alt="">
                 <div class="project-content">
-                    <h1 class="project-title">project 03</h1>
+                    <h1 class="project-title">Password generator</h1>
                     <p class="project-info">
                         Γεννήτρια κωδικών πρόσβασης με τη χρήση HTML, CSS and JS
                     <div class="project-btn-grp">
@@ -77,15 +77,19 @@
                 </div>
             </div>
             <div class="project-card">
-                <img src="images/Project-4.jpg" class="project-img" alt="">
+                <img src="images/dr.builder.jpg" class="project-img" alt="">
                 <div class="project-content">
-                    <h1 class="project-title">project 04</h1>
+                    <h1 class="project-title">Dr.Builder</h1>
                     <p class="project-info">
-                        Landing page με τη χρήση HTML, CSS
+                        Πρόκειται για το ομαδικό project που δημιουργήθηκε κατά τη διάρκεια
+                        του Coding Bootcamp της Peoplecert. Σκοπός του site είναι να βοηθήσει
+                        τον χρήστη να φτιάξει από την αρχή τον δικό του υπολογιστή κομμάτι-κομμάτι,
+                        καθώς και να αναζητήσει έτοιμους υπολογιστές που έχουν φτιάξει άλλοι χρήστες
+                        της σελίδας.
                     </p>
                     <div class="project-btn-grp">
-                        <a href="https://github.com/StavrosG2R/Landing-Page" target="_blank" class="project-btn github"><button class="project-btn github">github repo</button></a>
-                        <a href="https://epic-bell-0e5bca.netlify.app/" target="_blank" class="project-btn live"><button class="project-btn live">see live</button></a>
+                        <a href="https://github.com/StavrosG2R/GroupProject" target="_blank" class="project-btn github"><button class="project-btn github">github repo</button></a>
+                        <a href="#" target="_blank" class="project-btn live"><button class="project-btn live">see live</button></a>
                     </div>
                 </div>
             </div>
@@ -228,7 +232,7 @@
     
     <!-- contact section -->
     <section class="contact-section">
-        <form data-netlify="true" method="POST" name="contact-form-gr" id="contact-form" class="contact-form">
+        <form data-netlify-recaptcha="true" data-netlify="true" method="POST" name="contact-form-gr" id="contact-form" class="contact-form">
             <input type="hidden" name="form-name" value="contact-form">
             <div class="input-control">
                 <input type="text" name="name" id="name" autocomplete="off" placeholder="Ονομα">
@@ -242,6 +246,7 @@
                 <textarea name="msg" id="msg" placeholder="Μήνυμα" autocomplete="off"></textarea>
                 <div class="error"></div>
             </div>
+            <div data-netlify-recaptcha="true"></div>
             <button id="submit-btn" type="submit" class="form-submit-btn">αποστολή</button>
         </form>
 
