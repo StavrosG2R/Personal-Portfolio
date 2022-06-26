@@ -1,187 +1,186 @@
 /* Tablets */
-@media (max-width: 760px){
-    .project-container{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 100px;
-}
+@media (max-width: 760px) {
+	.project-container {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 100px;
+	}
 
-.hero-heading{
-    color: #fff;
-    font-size: 65px;
-    text-transform: capitalize;
-    font-weight: 300;
-    padding-top: 600px;
-}
+	.hero-heading {
+		color: #fff;
+		font-size: 65px;
+		text-transform: capitalize;
+		font-weight: 300;
+		padding-top: 600px;
+	}
 
-    /* home section */
-.home-img{
-    position:left;
-    top: 0;
-    right: 0;
-    left: 0%;
-    height: 100vh;
-    width: 100%;
-    object-fit: cover;
-    opacity: 0.2;
-}
+	/* home section */
+	.home-img {
+		position: left;
+		top: 0;
+		right: 0;
+		left: 0%;
+		height: 100vh;
+		width: 100%;
+		object-fit: cover;
+		opacity: 0.2;
+	}
 
-    /* about section */
-.about{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 40px;
-}
+	/* about section */
+	.about {
+		width: 100%;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 40px;
+	}
 
-.skills-container{
-    width: 95%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 100px;
-    color: #fff;
-}
+	.skills-container {
+		width: 95%;
+		margin: auto;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 100px;
+		color: #fff;
+	}
 
-.skill-card:nth-child(5) .skill-level{
-    background: #c3002f28;
-    border-color: #c3002f;
-    color: #c3002f;
-}
+	.skill-card:nth-child(5) .skill-level {
+		background: #c3002f28;
+		border-color: #c3002f;
+		color: #c3002f;
+	}
 
-    /* about section */
-.map{
-    width: 100%;
-    height: 81%;
-    padding: 10px;
-    border: 2px solid #fff;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
-}
+	/* about section */
+	.map {
+		width: 100%;
+		height: 81%;
+		padding: 10px;
+		border: 2px solid #fff;
+		background: rgba(255, 255, 255, 0.2);
+		border-radius: 10px;
+	}
 
-footer{
-    color: white;
-    text-align: center;
-    font-size: small;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
+	footer {
+		color: white;
+		text-align: center;
+		font-size: small;
+		position: relative;
+		bottom: 0;
+		width: 100%;
+	}
 }
 
 /* Mobiles */
-@media (max-width: 600px){
-    .navbar{
-        width: 100%;
-        position: fixed;
-        top: 0;
-        left: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 9;
-        background: #1a1a1a;
-    }
-    
-    .link-group{
-        list-style: none;
-        display: grid;
-        margin-right: 400px;
-    }
-    
-    .link a{
-        color: #fff;
-        opacity: 0.5;
-        text-decoration: none;
-        text-transform: capitalize;
-        padding: 10px 30px;
-        margin: 0 20px;
-        line-height: 30px;
-        transition: 0.5s;
-        font-size: 15px;
-    }
+@media (max-width: 600px) {
+	.navbar {
+		width: 100%;
+		position: fixed;
+		top: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		z-index: 9;
+		background: #1a1a1a;
+	}
 
-    .translate{
-        padding-left: 10px;
-    }
+	.link-group {
+		list-style: none;
+		display: grid;
+		margin-right: 400px;
+	}
 
-    /* project section */
-    .project-container{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 100px;
-    }
+	.link a {
+		color: #fff;
+		opacity: 0.5;
+		text-decoration: none;
+		text-transform: capitalize;
+		padding: 10px 30px;
+		margin: 0 20px;
+		line-height: 30px;
+		transition: 0.5s;
+		font-size: 10px;
+	}
 
-    .project-heading{
-        font-size: 70px;
-    }
+	.translate {
+		padding-left: 10px;
+	}
 
-    .hero-heading{
-        color: #fff;
-        font-size: 65px;
-        text-transform: capitalize;
-        font-weight: 300;
-        padding-top: 600px;
-    }
+	/* project section */
+	.project-container {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 100px;
+	}
 
-    .home-img{
-        position:left;
-        top: 160px;
-        right: 0;
-        left: 0%;
-        height: 100vh;
-        width: 100%;
-        object-fit: cover;
-        opacity: 0.2;
-    }
+	.project-heading {
+		font-size: 70px;
+	}
 
-    /* about section */
-    .about{
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 40px;
-    }
+	.hero-heading {
+		color: #fff;
+		font-size: 65px;
+		text-transform: capitalize;
+		font-weight: 300;
+		padding-top: 600px;
+	}
 
-    .skills-container{
-        width: 100%;
-        margin: auto;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 100px;
-        color: #fff;
-    }
+	.home-img {
+		position: left;
+		top: 160px;
+		right: 0;
+		left: 0%;
+		height: 100vh;
+		width: 100%;
+		object-fit: cover;
+		opacity: 0.2;
+	}
 
-    .skill-card:nth-child(5) .skill-level{
-        background: #c3002f28;
-        border-color: #c3002f;
-        color: #c3002f;
-    }
+	/* about section */
+	.about {
+		width: 100%;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 40px;
+	}
 
-    .timeline{
-        display: grid;
-        width: 80%;
-        margin: 150px auto;
-    }
+	.skills-container {
+		width: 100%;
+		margin: auto;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 100px;
+		color: #fff;
+	}
 
-    .contact-section{
-        position: absolute;
-        top: 80px;
-        opacity: 0;
-        transition: 1s;
-        padding: 100px 150px;
-        height: 100vh;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 0px;
-    }
+	.skill-card:nth-child(5) .skill-level {
+		background: #c3002f28;
+		border-color: #c3002f;
+		color: #c3002f;
+	}
 
-    footer{
-        color: white;
-        text-align: center;
-        font-size: small;
-        position: relative;
-        bottom: 0px;
-        width: 100%;
-    }
+	.timeline {
+		display: grid;
+		width: 80%;
+		margin: 150px auto;
+	}
+
+	.contact-section {
+		position: absolute;
+		top: 80px;
+		opacity: 0;
+		transition: 1s;
+		padding: 100px 150px;
+		height: 100vh;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 0px;
+	}
+
+	footer {
+		color: white;
+		text-align: center;
+		font-size: small;
+		position: relative;
+		bottom: 0px;
+		width: 100%;
+	}
 }
